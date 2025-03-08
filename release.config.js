@@ -1,6 +1,12 @@
 export default {
   branches: ["main"],
   repositoryUrl: "https://github.com/SP-Packages/hello-world.git",
+  prepare: [
+    {
+      path: "@semantic-release/exec",
+      cmd: "zip -r dist.zip dist/",
+    },
+  ],
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -27,9 +33,9 @@ export default {
       "@semantic-release/github",
       {
         assets: [
-          { path: "dist/**", label: "Distribution Files" },
-          { path: "package.json", label: "Package Metadata" },
-          { path: "README.md", label: "Documentation" },
+          { path: "dist.zip", label: "Distribution Files", overwrite: true },
+          { path: "package.json", label: "Package Metadata", overwrite: true },
+          { path: "README.md", label: "Documentation", overwrite: true },
         ],
       },
     ],
