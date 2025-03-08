@@ -1,7 +1,7 @@
 {
   "name": "@sp-packages/hello-world",
   "description": "A simple Hello world package",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "author": {
