@@ -1,0 +1,33 @@
+{
+  "name": "@sp-packages/hello-world",
+  "description": "A simple Hello world package",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Senthilprabu Ponnusamy",
+    "email": "info@senthilprabu.in",
+    "url": "https://www.senthilprabu.in"
+  },
+  "funding": "https://github.com/sponsors/iamsenthilprabu",
+  "keywords": [
+    "hello",
+    "world",
+    "hello-world",
+    "sp-packages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SP-Packages/hello-world.git"
+  },
+  "main": "./src/index.js",
+  "bin": {
+    "hello-world": "./src/bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
