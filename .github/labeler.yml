@@ -16,6 +16,7 @@ configuration:
   - changed-files:
       - any-glob-to-any-file: ".editorconfig"
       - any-glob-to-any-file: ".gitignore"
+      - any-glob-to-any-file: ".prettierignore"
       - any-glob-to-any-file: "commitlint.config.js"
       - any-glob-to-any-file: "cspell.json"
       - any-glob-to-any-file: "cspell.txt"
