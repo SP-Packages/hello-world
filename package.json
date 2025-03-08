@@ -20,14 +20,23 @@
     "type": "git",
     "url": "https://github.com/SP-Packages/hello-world.git"
   },
-  "main": "./src/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
   "bin": {
-    "hello-world": "./src/bin/index.js"
+    "hello-world": "./dist/bin/index.js"
   },
   "publishConfig": {
     "access": "public"
   },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

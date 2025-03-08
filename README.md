@@ -23,7 +23,9 @@ Run the following command in your terminal:
 ```sh
 hello-world
 ```
+
 or using npx
+
 ```sh
 npx hello-world
 ```
