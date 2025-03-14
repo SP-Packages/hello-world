@@ -1,6 +1,6 @@
 {
   "name": "@sp-packages/hello-world",
-  "description": "A simple Hello world package",
+  "description": "A lightweight CLI tool that prints Hello, World!",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SP-Packages/hello-world.git"
+    "url": "git+https://github.com/SP-Packages/hello-world.git"
   },
   "files": [
     "dist",
@@ -26,7 +26,7 @@
   ],
   "main": "./dist/index.js",
   "bin": {
-    "hello-world": "./dist/bin/index.js"
+    "hello-world": "dist/bin/index.js"
   },
   "publishConfig": {
     "access": "public"
@@ -41,6 +41,7 @@
       "@commitlint/config-conventional",
       "@semantic-release/changelog",
       "@semantic-release/commit-analyzer",
+      "@semantic-release/exec",
       "@semantic-release/git",
       "@semantic-release/npm",
       "@semantic-release/release-notes-generator",
@@ -72,9 +73,12 @@
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^14.0.3",
     "@types/node": "^22.13.9",
+    "@vitest/coverage-v8": "^3.0.8",
+    "codecov": "^3.8.3",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "cspell": "^8.17.5",
     "depcheck": "^1.4.7",
+    "esbuild": "^0.25.1",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-jsdoc": "^50.6.3",
@@ -86,14 +90,17 @@
     "prettier": "^3.5.3",
     "semantic-release": "^24.2.3",
     "typescript": "^5.8.2",
-    "typescript-eslint": "^8.26.0"
+    "typescript-eslint": "^8.26.0",
+    "vitest": "^3.0.8"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && esbuild dist/**/*.js --minify --outdir=dist --allow-overwrite --tree-shaking=true --platform=node",
     "commitlint": "commitlint --from=origin/main --to=HEAD --verbose",
     "cspell": "cspell --no-progress --no-summary",
     "eslint:fix": "eslint --fix",
     "prettier:write": "prettier --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage"
   }
 }
