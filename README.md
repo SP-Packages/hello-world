@@ -1,6 +1,6 @@
 # **Hello World**
 
-_A lightweight CLI tool that prints "Hello, World!"_
+<p align="center"><i>A lightweight CLI tool that prints "Hello, World!"</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/npm/v/@sp-packages/hello-world" alt="npm version">
