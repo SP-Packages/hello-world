@@ -1,6 +1,6 @@
 {
   "name": "@sp-packages/hello-world",
-  "description": "A simple Hello world package",
+  "description": "A lightweight CLI tool that prints Hello, World!",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SP-Packages/hello-world.git"
+    "url": "git+https://github.com/SP-Packages/hello-world.git"
   },
   "files": [
     "dist",
@@ -26,7 +26,7 @@
   ],
   "main": "./dist/index.js",
   "bin": {
-    "hello-world": "./dist/bin/index.js"
+    "hello-world": "dist/bin/index.js"
   },
   "publishConfig": {
     "access": "public"
