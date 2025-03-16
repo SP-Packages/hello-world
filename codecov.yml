@@ -14,6 +14,58 @@ coverage:
         target: 80%
         threshold: 2%
 
+flag_management:
+  default_rules:
+    carryforward: true
+    statuses:
+      - type: project
+        target: auto
+        threshold: 1%
+      - type: patch
+        target: 90%
+
+  individual_flags:
+    - name: cli
+      paths:
+        - src/bin/
+        - src/cli/
+      carryforward: true
+      statuses:
+        - type: project
+          target: 80%
+        - type: patch
+          target: 100%
+
+    - name: core
+      paths:
+        - src/core/
+      carryforward: true
+      statuses:
+        - type: project
+          target: 85%
+        - type: patch
+          target: 100%
+
+    - name: utils
+      paths:
+        - src/utils/
+      carryforward: true
+      statuses:
+        - type: project
+          target: 75%
+        - type: patch
+          target: 100%
+
+    - name: tests
+      paths:
+        - tests/
+      carryforward: true
+      statuses:
+        - type: project
+          target: 50%
+        - type: patch
+          target: 100%
+
 github_checks:
   annotations: true
 
