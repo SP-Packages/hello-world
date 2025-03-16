@@ -13,7 +13,6 @@ const commitTypes = [
   "feat",
   "fix",
   "docs",
-  "deps",
   "style",
   "refactor",
   "test",
