@@ -33,10 +33,12 @@
   },
   "depcheck": {
     "ignores": [
+      "codecov",
       "conventional-changelog-conventionalcommits",
       "cspell",
       "depcheck",
       "husky",
+      "markdownlint-cli",
       "semantic-release",
       "@commitlint/config-conventional",
       "@semantic-release/changelog",
@@ -46,7 +48,8 @@
       "@semantic-release/npm",
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
-      "@types/node"
+      "@types/node",
+      "@vitest/coverage-v8"
     ]
   },
   "lint-staged": {
