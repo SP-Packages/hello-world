@@ -1,3 +1,13 @@
+## [1.1.0](https://github.com/SP-Packages/hello-world/compare/v1.0.2...v1.1.0) (2025-03-16)
+
+### Features
+
+* **depkit, lintrc:** Add linting and dependency management tools ([#11](https://github.com/SP-Packages/hello-world/issues/11)) ([624e281](https://github.com/SP-Packages/hello-world/commit/624e281bcecc1a7ea3e874de25320da72eacb430))
+
+### Bug Fixes
+
+* **dependabot:** update commit message prefixes from chore to build ([#14](https://github.com/SP-Packages/hello-world/issues/14)) ([187b7aa](https://github.com/SP-Packages/hello-world/commit/187b7aa2b7ccf75500b10553f3fb46dc2f73556e))
+
 ## [1.0.2](https://github.com/SP-Packages/hello-world/compare/v1.0.1...v1.0.2) (2025-03-14)
 
 ### Bug Fixes
