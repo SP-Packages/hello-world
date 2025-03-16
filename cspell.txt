@@ -3,3 +3,9 @@ senthilprabu
 ponnusamy
 commitlint
 conventionalcommits
+depkit
+lintrc
+phpcbf
+phpcs
+phpstan
+phpcsfixer
