@@ -8,7 +8,7 @@ export default {
         preset: "conventionalcommits",
         releaseRules: [
           {
-            type: "deps",
+            type: "build",
             release: "patch",
           },
         ],
