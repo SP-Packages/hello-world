@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "deps(composer):"
+      prefix: "[skip ci] deps(composer):"
     reviewers:
       - "iamsenthilprabu"
     labels:
@@ -25,7 +25,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "deps(npm):"
+      prefix: "[skip ci] deps(npm):"
     reviewers:
       - "iamsenthilprabu"
     labels:
@@ -42,7 +42,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "deps(actions):"
+      prefix: "[skip ci] deps(actions):"
     reviewers:
       - "iamsenthilprabu"
     labels:
