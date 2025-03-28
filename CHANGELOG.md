@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/SP-Packages/hello-world/compare/v1.1.0...v1.2.0) (2025-03-28)
+
+### Features
+
+* **makefile:** add Makefile with help, start, dep, and lint targets ([85243da](https://github.com/SP-Packages/hello-world/commit/85243dab56a8653d5c87b433ca210013decee4ee))
+* **workflows:** update Prepare and Release Workflows ([22d5cd5](https://github.com/SP-Packages/hello-world/commit/22d5cd551fe05df96d3149f6c16d9adb3c919d28))
+
+### Bug Fixes
+
+* **depkit:** update lintrc version and enhance configurations ([44ff472](https://github.com/SP-Packages/hello-world/commit/44ff472ead36a078b3e6cb5dc0dbe003c8afd6b5))
+* **makefile:** update phony targets to include start and dep ([530bc8d](https://github.com/SP-Packages/hello-world/commit/530bc8d91f8de12ddfce720854187c2a35ed3d14))
+
 ## [1.1.0](https://github.com/SP-Packages/hello-world/compare/v1.0.2...v1.1.0) (2025-03-16)
 
 ### Features
