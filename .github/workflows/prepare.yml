@@ -9,12 +9,17 @@ on:
 
 jobs:
   prepare:
-    uses: SP-Packages/actions/.github/workflows/code-quality.yml@main
+    uses: SP-Packages/actions/.github/workflows/code-quality.yml@v1.1.1
+    with:
+      VERBOSE: true
+
+  test:
+    needs: prepare
+    uses: SP-Packages/actions/.github/workflows/code-testing.yml@v1.1.1
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
     with:
       SLUG: SP-Packages/hello-world
-      VERBOSE: true
     permissions:
       contents: read
       pull-requests: write
