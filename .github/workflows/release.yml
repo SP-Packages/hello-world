@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   prepare:
     uses: SP-Packages/actions/.github/workflows/code-quality.yml@v1.1.1
@@ -18,9 +23,6 @@ jobs:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
     with:
       SLUG: SP-Packages/hello-world
-    permissions:
-      contents: read
-      pull-requests: write
 
   release:
     needs: test
@@ -28,13 +30,7 @@ jobs:
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
 
   rebase:
     needs: prepare
     uses: SP-Packages/actions/.github/workflows/rebase-develop.yml@v1.1.1
-    permissions:
-      contents: write
