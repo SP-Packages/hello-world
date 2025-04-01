@@ -1,3 +1,14 @@
+## [1.2.1](https://github.com/SP-Packages/hello-world/compare/v1.2.0...v1.2.1) (2025-04-01)
+
+### Bug Fixes
+
+* **config:** update dependencies and configurations ([2de5ce7](https://github.com/SP-Packages/hello-world/commit/2de5ce71776a4c6a8721fa406b4a49aa61697344))
+* **dependabot:** update ignore rules for version updates in dependencies ([e2e0e41](https://github.com/SP-Packages/hello-world/commit/e2e0e41e897c809ac7e0cff675b60a87faedfef8))
+* **dependabot:** update ignore rules for version updates in dependencies ([85f8aa5](https://github.com/SP-Packages/hello-world/commit/85f8aa564729c23ff01789bc70e6758ebe7f8c14))
+* **funding:** add custom funding link for PayPal contributions ([45133f5](https://github.com/SP-Packages/hello-world/commit/45133f5953b5cc2a2faabf7ee2c7800008d3b721))
+* **workflows:** add permissions for contents and pull-requests ([68c7b7b](https://github.com/SP-Packages/hello-world/commit/68c7b7b997b69fa66a2c7e2566505e3788eca93d))
+* **workflows:** update permissions for workflows ([2d382f1](https://github.com/SP-Packages/hello-world/commit/2d382f12f1a54f265e1e09d93fab8c768fb2e9d9))
+
 ## [1.2.0](https://github.com/SP-Packages/hello-world/compare/v1.1.0...v1.2.0) (2025-03-28)
 
 ### Features
