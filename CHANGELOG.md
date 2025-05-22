@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/SP-Packages/hello-world/compare/v1.2.2...v1.2.3) (2025-05-22)
+
+### Bug Fixes
+
+* **dependencies:** update dependencies ([5eb0cec](https://github.com/SP-Packages/hello-world/commit/5eb0cec6d1b08fda912e4cebb56890a63efbc43e))
+
 ## [1.2.2](https://github.com/SP-Packages/hello-world/compare/v1.2.1...v1.2.2) (2025-05-22)
 
 ### Bug Fixes
