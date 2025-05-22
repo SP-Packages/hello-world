@@ -80,7 +80,7 @@ You can also use `hello-world` inside your JavaScript/TypeScript projects.
 ### **Import and Use in Your Project**
 
 ```ts
-import { helloWorld } from "@sp-packages/hello-world";
+import { helloWorld } from '@sp-packages/hello-world';
 
 helloWorld();
 ```
