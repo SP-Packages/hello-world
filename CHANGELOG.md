@@ -1,3 +1,15 @@
+## [1.2.2](https://github.com/SP-Packages/hello-world/compare/v1.2.1...v1.2.2) (2025-05-22)
+
+### Bug Fixes
+
+* **cspell:** add dictionary import and remove unused cspell.txt file ([4e77a57](https://github.com/SP-Packages/hello-world/commit/4e77a57aba11e8dc8a8b1397ccc4ed272b24f560))
+* **dependabot:** change update schedule from daily to weekly ([8fbe4ca](https://github.com/SP-Packages/hello-world/commit/8fbe4ca2eab368de1992f8b5983510f77825e3bd))
+* **dependencies:** update dependencies ([480d478](https://github.com/SP-Packages/hello-world/commit/480d47819e8874167090562acdd65895b916c5c2))
+* **funding:** update custom funding link format and improve consistency ([94973fa](https://github.com/SP-Packages/hello-world/commit/94973fab9776277a9657fad1089824944075591e))
+* **labeler:** add .markdownlint.json to configuration file labels ([2dec963](https://github.com/SP-Packages/hello-world/commit/2dec963b5ebccf25d982380f07e7978b80e71c2b))
+* **release:** update rebase job dependency to depend on release job ([cbffc96](https://github.com/SP-Packages/hello-world/commit/cbffc967ba28db0cace17d8ae10304131f904173))
+* **workflows:** update action versions and permissions in YAML files ([1e79cce](https://github.com/SP-Packages/hello-world/commit/1e79cce2620e8c8a14ae5387a40410efbe3a1b38))
+
 ## [1.2.1](https://github.com/SP-Packages/hello-world/compare/v1.2.0...v1.2.1) (2025-04-01)
 
 ### Bug Fixes
