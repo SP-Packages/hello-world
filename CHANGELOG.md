@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/SP-Packages/hello-world/compare/v1.2.7...v1.2.8) (2025-08-22)
+
+### Bug Fixes
+
+* **dependencies:** update dependencies ([dbe4f62](https://github.com/SP-Packages/hello-world/commit/dbe4f624296a68374f9014d11854f73a128c18f3))
+* **release.config:** remove unused release rules and clean up config ([7963190](https://github.com/SP-Packages/hello-world/commit/796319049d2f9323de6634f33349445ee99a92af))
+
 ## [1.2.7](https://github.com/SP-Packages/hello-world/compare/v1.2.6...v1.2.7) (2025-08-22)
 
 ### Bug Fixes
