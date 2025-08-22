@@ -1,7 +1,7 @@
 {
   "name": "@sp-packages/hello-world",
   "description": "A lightweight CLI tool that prints Hello, World!",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "type": "module",
   "license": "MIT",
   "author": {

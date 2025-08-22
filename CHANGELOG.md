@@ -1,3 +1,14 @@
+## [1.2.6](https://github.com/SP-Packages/hello-world/compare/v1.2.5...v1.2.6) (2025-08-22)
+
+### Bug Fixes
+
+* **dependencies:** update dependencies ([442683a](https://github.com/SP-Packages/hello-world/commit/442683a533c95d93812ce41ca3e19f885f57efd9))
+* **lint-staged:** enforce strict mode for lintrc command ([3690bf0](https://github.com/SP-Packages/hello-world/commit/3690bf07167e510e62f431ce23be5689e5e10736))
+* **scripts:** update test scripts and add watch command ([350d803](https://github.com/SP-Packages/hello-world/commit/350d8036b85ba7827239a71cabc3c354d9969eca))
+* **tools:** reorganize composer and npm tool configurations ([ebaf70a](https://github.com/SP-Packages/hello-world/commit/ebaf70adef37d51739262339a39bcc010d7f9d15))
+* **tools:** update behavior and priority for Composer and NPM tools ([70a2a0c](https://github.com/SP-Packages/hello-world/commit/70a2a0c181ccd123905fee28639aa00df6e297bc))
+* **tools:** update configuration files ([35525b5](https://github.com/SP-Packages/hello-world/commit/35525b54e60db0887f4e8baeb78cc5bfb3356525))
+
 ## [1.2.5](https://github.com/SP-Packages/hello-world/compare/v1.2.4...v1.2.5) (2025-07-26)
 
 ### Bug Fixes
