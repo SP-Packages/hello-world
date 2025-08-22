@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/SP-Packages/hello-world/compare/v1.2.6...v1.2.7) (2025-08-22)
+
+### Bug Fixes
+
+* **workflows:** add NPM_TOKEN secret to release job ([5816710](https://github.com/SP-Packages/hello-world/commit/5816710723fd18e3c9ff1f32c13767c0552768fc))
+* **workflows:** update action versions and permissions in workflows ([448bdd0](https://github.com/SP-Packages/hello-world/commit/448bdd0b13f9de5bf4432e77b49cd8ac3f2a7ad2))
+
 ## [1.2.6](https://github.com/SP-Packages/hello-world/compare/v1.2.5...v1.2.6) (2025-08-22)
 
 ### Bug Fixes
