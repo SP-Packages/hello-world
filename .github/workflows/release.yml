@@ -20,6 +20,7 @@ jobs:
       VERBOSE: true
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   sync:
     needs: release
